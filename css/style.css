@@ -41,6 +41,21 @@ li {
 .logo {
   font-size: 32px;
 }
+.vl {
+  border-left: 3px solid #a2a5a285;
+  height: 160px;
+  position: absolute;
+  margin-left: -3px;
+  top: 0;
+  right: 10px;
+}
+.vl.dwn {
+  bottom: -175px;
+  top: auto;
+}
+.vl.up {
+  top: -162px;
+}
 .logo {
   cursor: pointer;
   z-index: 999999999;
@@ -52,7 +67,9 @@ li {
   font-size: 18px;
   z-index: 9999999;
 }
-
+.footerMenu .menu {
+    gap: 10rem;
+}
 .menu li:hover {
   transition: 0.3s ease;
   border-bottom: 1px solid rgba(0, 0, 0, 1);
@@ -375,13 +392,14 @@ span.allipe3 img {
 .lowertext {
   position: absolute;
   bottom: 0;
+  right: 90px;
 }
 
 .uptext span {
   font-size: 61px;
   text-transform: uppercase;
   letter-spacing: 16px;
-  margin-left: 328px;
+  margin-left: 431px;
   color: #adaeb13d;
   font-weight: 300;
 }
@@ -390,7 +408,7 @@ span.allipe3 img {
   font-size: 61px;
   text-transform: uppercase;
   letter-spacing: 16px;
-  margin-left: 426px;
+  margin-left: 0px;
   color: #adaeb13d;
   font-weight: 300;
 }
