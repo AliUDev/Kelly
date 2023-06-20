@@ -445,6 +445,7 @@ span.allipe3 img {
   position: relative;
   border-radius: 20px;
   cursor: pointer;
+  z-index: 9999;
 }
 
 .cardblog img {
