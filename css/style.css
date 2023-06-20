@@ -150,8 +150,18 @@ a.buttonSubmit.conItem:after {
   width: 80px;
   background: url(../Images//Mask\ Group\ 3137.png) no-repeat;
   position: absolute;
-  margin-left: -25px;
+  margin-left: -24px;
   background-size: 50px;
+  margin-top: -16px;
+}
+.overup a.buttonSubmit.conItem:after {
+  content: "";
+  height: 80px;
+  width: 80px;
+  background: url(../Images//Mask\ Group\ 3137.png) no-repeat;
+  position: absolute;
+  margin-left: -38px;
+  background-size: 56px;
   margin-top: -16px;
 }
 
@@ -1074,7 +1084,7 @@ span.allipe3.allipe4 {
   }
   .fixLeft {
     position: absolute;
-    bottom: -168px;
+    bottom: -263px;
     left: 0;
   }
   .uptext {
@@ -1089,7 +1099,7 @@ span.allipe3.allipe4 {
   }
   .lowertext {
     position: absolute;
-    bottom: -197px;
+    bottom: -292px;
     right: 0;
   }
   label.hamburger {
@@ -1113,7 +1123,7 @@ span.allipe3.allipe4 {
   }
   .itemblog {
     padding: 17px;
-    margin-top: 183px;
+    margin-top: 282px;
   }
   .flexblog {
     display: block;
@@ -1166,4 +1176,23 @@ span.allipe3.allipe4 {
   margin: 0;
   height: 400px;
 }
+.overup .conItem {
+  position: absolute;
+  width: 79%;
+  bottom: -176px;
+  padding: 16px 20px;
+  left: 33px;
+  right: 0;
+}
+.overup a.buttonSubmit.conItem:after {
+  content: "";
+  height: 80px;
+  width: 80px;
+  background: url(../Images//Mask\ Group\ 3137.png) no-repeat;
+  position: absolute;
+  margin-left: -23px;
+  background-size: 56px;
+  margin-top: -16px;
+}
+
 }
