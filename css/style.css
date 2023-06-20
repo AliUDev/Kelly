@@ -157,6 +157,7 @@ a.buttonSubmit.conItem:after {
 
 ul.nav-links {
   margin: 0px 59px;
+  z-index: 999999999;
 }
 .callus {
   background-image: linear-gradient(to right, #b9efff, #009fcf);
@@ -251,6 +252,7 @@ span.allipe3 img {
   background-size: cover;
   height: 351px;
   position: relative;
+  background-position-x: 160px;
 }
 
 .inNercontentBg {
@@ -429,6 +431,7 @@ span.allipe3 img {
 }
 .barr.qw {
   height: 500px;
+  margin-left: 16px;
 }
 .cardblog {
   width: 33%;
@@ -487,6 +490,7 @@ a.buttonSubmit.conItem {
   /* height: 800px; */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -78px;
 }
 
 .main2footer {
@@ -989,5 +993,9 @@ span.allipe3.allipe4 {
 
 .vl {
     display: none;
+}
+.contentBg {
+
+  background-position-x: -183px;
 }
 }
