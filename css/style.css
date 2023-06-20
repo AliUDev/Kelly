@@ -41,6 +41,21 @@ li {
 .logo {
   font-size: 32px;
 }
+.vl {
+  border-left: 3px solid #a2a5a285;
+  height: 160px;
+  position: absolute;
+  margin-left: -3px;
+  top: 0;
+  right: 10px;
+}
+.vl.dwn {
+  bottom: -175px;
+  top: auto;
+}
+.vl.up {
+  top: -162px;
+}
 .logo {
   cursor: pointer;
   z-index: 999999999;
@@ -52,7 +67,9 @@ li {
   font-size: 18px;
   z-index: 9999999;
 }
-
+.footerMenu .menu {
+    gap: 10rem;
+}
 .menu li:hover {
   transition: 0.3s ease;
   border-bottom: 1px solid rgba(0, 0, 0, 1);
@@ -140,6 +157,7 @@ a.buttonSubmit.conItem:after {
 
 ul.nav-links {
   margin: 0px 59px;
+  z-index: 999999999;
 }
 .callus {
   background-image: linear-gradient(to right, #b9efff, #009fcf);
@@ -168,6 +186,10 @@ ul.nav-links {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  z-index: -15;
+  clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 82%, 66% 85%, 32% 90%, 0 100%, 0% 43%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 81%, 70% 84%, 39% 89%, 0 100%, 0% 43%, 0 0);
+
 }
 
 .heroContent {
@@ -234,6 +256,9 @@ span.allipe3 img {
   background-size: cover;
   height: 351px;
   position: relative;
+  background-position-x: 160px;
+  background-position-y: -68px;
+  margin-top: -107px;
 }
 
 .inNercontentBg {
@@ -352,8 +377,14 @@ span.allipe3 img {
 
 .fixLeft img {
   width: 65px;
+  z-index: 999999;
 }
-
+.barr {
+  border-left: 3px solid #c7c7c785;
+  height: 2000px;
+  position: absolute;
+  margin-left: 57px;
+}
 .fixLeft {
   display: flex;
   align-items: center;
@@ -375,13 +406,14 @@ span.allipe3 img {
 .lowertext {
   position: absolute;
   bottom: 0;
+  right: 90px;
 }
 
 .uptext span {
   font-size: 61px;
   text-transform: uppercase;
   letter-spacing: 16px;
-  margin-left: 328px;
+  margin-left: 431px;
   color: #adaeb13d;
   font-weight: 300;
 }
@@ -390,7 +422,7 @@ span.allipe3 img {
   font-size: 61px;
   text-transform: uppercase;
   letter-spacing: 16px;
-  margin-left: 426px;
+  margin-left: 0px;
   color: #adaeb13d;
   font-weight: 300;
 }
@@ -401,12 +433,15 @@ span.allipe3 img {
 }
 
 .itemblog {
-  padding: 17px;
+  padding: 46px 17px;
 }
-
+.barr.qw {
+  height: 500px;
+  margin-left: 16px;
+}
 .cardblog {
-  width: 26%;
-  margin: 0px 27px;
+  width: 33%;
+  margin: 0px 16px;
   position: relative;
   border-radius: 20px;
   cursor: pointer;
@@ -461,6 +496,7 @@ a.buttonSubmit.conItem {
   /* height: 800px; */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-y: -78px;
 }
 
 .main2footer {
@@ -543,65 +579,186 @@ p.copy {
   display: none;
 }
 /* APPLYING MEDIA QUERIES */
+
+@media (max-width:2560px) {
+
+
+span.allipe3.allipe4 {
+  position: absolute;
+  left: -1638px;
+  top: -1525px;
+  height: 300px;
+  width: 100%;
+  z-index: -2;
+}
+
+span.allipe3 {
+  position: absolute;
+  left: -1976px;
+  top: -1478px;
+  height: 300px;
+  width: 100%;
+  z-index: 0;
+}
+
+.menu {
+  gap: 10em;
+}
+
+ul.nav-links {
+  z-index: 999999999999999999999999999999999;
+}
+
+.heroImage {
+  height: 1224px;
+}
+
+.contentBg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 444px;
+  position: relative;
+  background-position-x: 224px;
+  background-position-y: -91px;
+  margin-top: -155px;
+}
+
+.overup {
+  width: 60%;
+  padding: 129px 42px;
+  left: -301px;
+}
+
+.barr.qw {
+  height: 601px;
+  margin-left: 16px;
+  margin-top: 154px;
+}
+
+.nav-links a {
+  font-size: 21px;
+}
+
+.contentblog {
+  font-size: 29px;
+}
+
+.servUl ul li p {
+  font-size: 24px;
+}
+
+.sevicImg {
+  left: -308px;
+  top: -128px;
+}
+
+.footerContent {
+  padding: 313px 40px;
+  padding-bottom: 20px;
+}
+  
+}
+
 @media (max-width: 1920px) {
+
+  .menu{
+    gap: 7rem;
+}
+.contentblog {
+  font-size: 20px;
+}
+
+.nav-links a {
+    font-size: 15px;
+}
+
+.heroImage {
+    height: 727px;
+}
+
+.overup {
+    width: 60%;
+    padding: 55px;
+    left: -133px;
+}
+
+.servUl ul li p {
+    font-size: 17px;
+}
+
+.footerContent {
+    padding: 200px 40px;
+    padding-bottom: 20px;
+}
     span.allipe3 {
-        position: absolute;
-        left: -1206px;
-        top: -1140px;
-        height: 300px;
-        width: 100%;
-        z-index: 999999;
+      position: absolute;
+      left: -1345px;
+      top: -1140px;
+      height: 300px;
+      width: 100%;
+      z-index: 999999;
     }
     span.allipe3.allipe4 {
-        position: absolute;
-        left: -961px;
-        top: -1077px;
-        width: 100%;
-        z-index: 9;
+      position: absolute;
+      left: -1076px;
+      top: -1124px;
+      width: 100%;
+      z-index: 9;
     }
   .heroContent {
     right: 10%;
   }
+  .barr.qw {
+    height: 551px;
+    margin-left: 16px;
+    margin-top: 60px;
+}
 }
 @media (max-width: 1600px) {
     span.allipe3 {
-        position: absolute;
-        left: -1152px;
-        top: -898px;
-        height: 300px;
-        width: 100%;
+      position: absolute;
+      left: -1229px;
+      top: -898px;
+      height: 300px;
+      width: 100%;
     }
   .heroContent {
     right: 0%;
   }
+  .menu {
+    gap: 4rem;
+}
   .inNercontentBg {
     right: -196px;
   }
   span.allipe3.allipe4 {
     position: absolute;
-    left: -484px;
-    top: -638px;
+    left: -576px;
+    top: -659px;
     height: 273px;
     width: 76%;
-    z-index: 99;
+    z-index: -1;
 }
 }
 
 @media (max-width: 1440px) {
   span.allipe3 {
     position: absolute;
-    left: -1147px;
+    left: -1144px;
     top: -768px;
     height: 300px;
     width: 100%;
   }
   span.allipe3.allipe4 {
     position: absolute;
-    left: -499px;
-    top: -587px;
+    left: -549px;
+    top: -608px;
     height: 273px;
     width: 76%;
-    z-index: 99;
+    z-index: -1;
+}
+.menu {
+  gap: 2rem;
 }
 }
 @media (max-width: 1366px) {
@@ -614,6 +771,9 @@ p.copy {
     top: -704px;
     height: 300px;
     width: 100%;
+}
+.blogMian {
+  margin: 5px 0px;
 }
 span.allipe3.allipe4 {
     position: absolute;
@@ -634,6 +794,17 @@ span.allipe3.allipe4 {
     top: 37%;
     right: -10%;
     width: 50%;
+  }
+  .barr {
+    height: 1208px;
+  }
+  .barr.qw {
+    height: 500px;
+    margin-left: 47px;
+}
+  .contentBg {
+ 
+    height: 119px;
   }
 
   .logo img {
@@ -665,13 +836,31 @@ span.allipe3.allipe4 {
     height: 295px;
     width: 52%;
   }
+  .sevicImg {
+    left: -232px;
+    top: -39px;
+}
   span.allipe3.allipe4 {
     position: absolute;
     left: -492px;
-    top: -390px;
+    top: -435px;
     height: 273px;
     width: 76%;
-    z-index: 99;
+    z-index: -1;
+}
+.contentBg {
+  height: 227px;
+  position: relative;
+  background-position-x: 227px;
+  background-position-y: -43px;
+  margin-top: -112px;
+}
+.contentblog {
+  font-size: 14px;
+}
+.barr.qw {
+  margin-top: 28px;
+  height: 482px;
 }
   .inNercontentBg {
     width: 73%;
@@ -748,7 +937,7 @@ span.allipe3.allipe4 {
     text-align: end;
     bottom: 0;
     padding: 14px;
-    top: 70%;
+    top: 60%;
   }
 
   .heroContent h3 {
@@ -793,11 +982,11 @@ span.allipe3.allipe4 {
   }
   span.allipe3.allipe4 {
     position: absolute;
-    left: -109px;
-    top: -83px;
+    left: -194px;
+    top: -45px;
     height: 273px;
     width: 100%;
-    z-index: 99;
+    z-index: -1;
 }
   nav.navbar {
     padding-top: 50px;
@@ -957,4 +1146,23 @@ span.allipe3.allipe4 {
   .inNercontentBg {
     right: 0;
   }
+  .barr {
+    display: none;
+}
+
+.vl {
+    display: none;
+}
+.contentBg {
+
+  background-position-x: -183px;
+}
+.heroImage {
+  clip-path: polygon(36% 0, 59% 0, 100% 0, 100% 94%, 72% 93%, 51% 92%, 29% 92%, 0 91%, 0 0);
+}
+
+.contentBg {
+  margin: 0;
+  height: 400px;
+}
 }
