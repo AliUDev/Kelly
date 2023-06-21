@@ -150,8 +150,8 @@ a.buttonSubmit.conItem:after {
   width: 80px;
   background: url(../Images//Mask\ Group\ 3137.png) no-repeat;
   position: absolute;
-  margin-left: -24px;
-  background-size: 50px;
+  margin-left: -30px;
+  background-size: 74px;
   margin-top: -16px;
 }
 .overup a.buttonSubmit.conItem:after {
@@ -161,7 +161,7 @@ a.buttonSubmit.conItem:after {
   background: url(../Images//Mask\ Group\ 3137.png) no-repeat;
   position: absolute;
   margin-left: -38px;
-  background-size: 56px;
+  background-size: 77px;
   margin-top: -16px;
 }
 
@@ -347,7 +347,7 @@ span.allipe3 img {
 .serviveContent .conItem {
   background: #2969f2;
   width: fit-content;
-  padding: 14px 2px;
+  padding: 27px 10px;
   color: #fff;
   border-radius: 12px;
   font-size: 12px;
@@ -481,7 +481,7 @@ span.allipe3 img {
   width: 60%;
   padding: 55px;
   left: -133px;
-  box-shadow: rgb(255 255 255) 6px 24px 16px -9px;
+  /* box-shadow: rgb(255 255 255) 6px 24px 16px -9px; */
 }
 
 .overup p.conItem {
@@ -489,8 +489,8 @@ span.allipe3 img {
 }
 
 a.buttonSubmit.conItem {
-  box-shadow: rgb(82 131 255) 0px 3px 47px;
-  box-shadow: rgb(41 105 242) 0px 5px 15px;
+  /* box-shadow: rgb(82 131 255) 0px 3px 47px;
+  box-shadow: rgb(41 105 242) 0px 5px 15px; */
 }
 .overup p.conItem a.buttonSubmit.conItem {
   margin-left: 0px;
@@ -551,7 +551,7 @@ p.arrowDown img {
 
 .buttonSubmit {
   background: #2969f2;
-  padding: 10px 20px;
+  padding: 22px 44px;
   border-radius: 7px;
   color: #fff;
 }
@@ -602,6 +602,10 @@ p.copy {
 /* APPLYING MEDIA QUERIES */
 
 @media (max-width:2560px) {
+  .barr {
+    border-left: 3px solid #c7c7c785;
+    height: 2684px;
+  }
   .contactus {
     font-size: 30px;
 }
@@ -706,7 +710,8 @@ ul.nav-links {
 }
 
 .contentblog {
-  font-size: 29px;
+  font-size: 36px;
+  width: 70%;
 }
 
 .servUl ul li p {
@@ -714,8 +719,8 @@ ul.nav-links {
 }
 
 .sevicImg {
-  left: -308px;
-  top: -128px;
+  left: -660px;
+  top: -214px;
 }
 
 .footerContent {
@@ -754,12 +759,38 @@ ul.nav-links {
 }
 
 .sevicImg img {
-  width: 70%;
+  width: 82%;
+}
+.serviveContent h2 {
+  font-weight: 300;
+  font-size: 73px;
+}
+
+.servUl ul li h3 {
+  font-size: 50px;
+}
+
+.servUl ul li {
+  align-items: baseline;
+  padding: 28px 15px;
+}
+
+.servUl ul li p {
+  font-size: 30px;
+  margin-left: 36px;
+  font-weight: 500;
 }
   
 }
 
 @media (max-width: 1920px) {
+  .barr {
+    height: 2000px;
+}
+  .contentBg {
+    background-position-y: -58px;
+    margin-top: -148px;
+}
   .contactus {
     font-size: 18px;
 }
@@ -851,13 +882,19 @@ ul.nav-links {
 }
 }
 @media (max-width: 1600px) {
+
   .overup p {
     font-size: 19px;
     text-align: justify;
 }
-.sevicImg img {
-  width: 50%;
+.sevicImg {
+  left: -602px;
+  top: -214px;
 }
+.sevicImg img {
+  width: 70%;
+}
+
 .serviveContent .conItem {
   font-size: 17px;
 }
@@ -987,6 +1024,10 @@ span.allipe3.allipe4 {
     font-size: 22px;
     margin-top: 18px;
   }
+  .barr {
+    border-left: 3px solid #c7c7c785;
+    height: 1798px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -1055,7 +1096,7 @@ p.arrowDown img {
     width: 52%;
   }
   .sevicImg {
-    left: -232px;
+    left: -476px;
     top: -39px;
 }
   span.allipe3.allipe4 {
@@ -1075,6 +1116,7 @@ p.arrowDown img {
 }
 .contentblog {
   font-size: 14px;
+  width: 100%;
 }
 .barr.qw {
   margin-top: 28px;
@@ -1090,6 +1132,27 @@ p.arrowDown img {
   .inNercontentBg h2 {
     font-size: 40px;
   }
+  .sevicImg img {
+    width: 64%;
+}
+.buttonSubmit {
+  background: #2969f2;
+  padding: 16px 20px;
+  border-radius: 7px;
+  color: #fff;
+}
+.overup a.buttonSubmit.conItem:after {
+
+  background-size: 58px;
+}
+.serviveContent .conItem {
+
+  padding: 22px 3px;
+}
+a.buttonSubmit.conItem:after {
+  
+  background-size: 60px;
+}
 }
 @media (max-width: 768px) {
   .menu {
