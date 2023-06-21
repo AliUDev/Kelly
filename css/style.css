@@ -178,11 +178,17 @@ ul.nav-links {
   align-items: end;
   margin: 0 -24px;
 }
+.parent {
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.5));
+}
+
+
 
 .callus span {
   color: #fff;
   font-size: 15px;
   font-weight: 600;
+  margin-bottom: 12px;
 }
 
 .callSection ul li {
@@ -199,6 +205,7 @@ ul.nav-links {
   z-index: -15;
   clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 82%, 66% 85%, 32% 90%, 0 100%, 0% 43%, 0 0);
   clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 81%, 70% 84%, 39% 89%, 0 100%, 0% 43%, 0 0);
+  clip-path: url(#myCurve);
 
 }
 
@@ -600,7 +607,7 @@ span.allipe3.allipe4 {
   top: -1525px;
   height: 300px;
   width: 100%;
-  z-index: -2;
+  z-index: -1;
 }
 
 span.allipe3 {
@@ -671,7 +678,9 @@ ul.nav-links {
 }
 
 @media (max-width: 1920px) {
-
+  .heroImage {
+    height: 900px;
+}
   .menu{
     gap: 7rem;
 }
@@ -714,7 +723,7 @@ ul.nav-links {
       left: -1076px;
       top: -1124px;
       width: 100%;
-      z-index: 9;
+      z-index: -1;
     }
   .heroContent {
     right: 10%;
@@ -726,6 +735,9 @@ ul.nav-links {
 }
 }
 @media (max-width: 1600px) {
+  .heroImage {
+    height: 727px;
+}
     span.allipe3 {
       position: absolute;
       left: -1229px;
@@ -792,7 +804,7 @@ span.allipe3.allipe4 {
     top: -537px;
     height: 273px;
     width: 76%;
-    z-index: 99;
+    z-index: -1;
 }
   .inNercontentBg {
     width: 50%;
@@ -993,8 +1005,8 @@ span.allipe3.allipe4 {
   }
   span.allipe3.allipe4 {
     position: absolute;
-    left: -194px;
-    top: -45px;
+    left: -199px;
+    top: -80px;
     height: 273px;
     width: 100%;
     z-index: -1;
@@ -1170,6 +1182,7 @@ span.allipe3.allipe4 {
 }
 .heroImage {
   clip-path: polygon(36% 0, 59% 0, 100% 0, 100% 94%, 72% 93%, 51% 92%, 29% 92%, 0 91%, 0 0);
+  clip-path: url(#myCurveMob);
 }
 
 .contentBg {
