@@ -596,9 +596,57 @@ p.copy {
   position: absolute;
   display: none;
 }
+.callSection a {
+  color: #162784;
+}
 /* APPLYING MEDIA QUERIES */
 
 @media (max-width:2560px) {
+  .contactus {
+    font-size: 30px;
+}
+
+.logoSection p {
+    font-size: 25px;
+}
+
+p.copy {
+    font-size: 20px;
+}
+
+p.arrowDown img {
+    width: 45px;
+}
+  .overup p {
+    font-size: 27px;
+    text-align: justify;
+}
+  .heroContent h3 {
+    font-size: 67px;
+    font-weight: 300;
+}
+
+.heroContent h2 {
+    font-size: 100px;
+}
+
+.heroContent p {
+    font-size: 31px;
+    margin-top: 18px;
+}
+
+.vl {
+    height: 365px;
+}
+
+.vl.up {
+    top: -352px;
+}
+
+.vl.dwn {
+    bottom: -454px;
+    height: 450px;
+}
 
 
 span.allipe3.allipe4 {
@@ -620,7 +668,7 @@ span.allipe3 {
 }
 
 .menu {
-  gap: 10em;
+  gap: 8rem;
 }
 
 ul.nav-links {
@@ -628,7 +676,7 @@ ul.nav-links {
 }
 
 .heroImage {
-  height: 1224px;
+  height: 1400px;
 }
 
 .contentBg {
@@ -638,12 +686,12 @@ ul.nav-links {
   position: relative;
   background-position-x: 224px;
   background-position-y: -91px;
-  margin-top: -155px;
+  margin-top: -275px;
 }
 
 .overup {
   width: 60%;
-  padding: 129px 42px;
+  padding: 129px 120px;
   left: -301px;
 }
 
@@ -654,7 +702,7 @@ ul.nav-links {
 }
 
 .nav-links a {
-  font-size: 21px;
+  font-size: 27px;
 }
 
 .contentblog {
@@ -674,12 +722,57 @@ ul.nav-links {
   padding: 313px 40px;
   padding-bottom: 20px;
 }
+.inNercontentBg h3 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.inNercontentBg h2 {
+  font-size: 100px;
+}
+
+.inNercontentBg p {
+  font-size: 28px;
+}
+.overup p {
+  font-size: 27px;
+  text-align: justify;
+}
+
+.servUl ul li p {
+  font-size: 33px;
+  margin-left: 36px;
+  font-weight: 400;
+}
+
+.servUl ul li h3 {
+  font-size: 45px;
+}
+
+.serviveContent .conItem {
+  font-size: 25px;
+}
+
+.sevicImg img {
+  width: 70%;
+}
   
 }
 
 @media (max-width: 1920px) {
+  .contactus {
+    font-size: 18px;
+}
+.overup p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.logoSection p {
+    font-size: 18px;
+}
   .heroImage {
-    height: 900px;
+    height: 1000px;
 }
   .menu{
     gap: 7rem;
@@ -692,9 +785,7 @@ ul.nav-links {
     font-size: 15px;
 }
 
-.heroImage {
-    height: 727px;
-}
+
 
 .overup {
     width: 60%;
@@ -733,8 +824,46 @@ ul.nav-links {
     margin-left: 16px;
     margin-top: 60px;
 }
+.heroContent h3 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.heroContent h2 {
+  font-size: 75px;
+}
+
+.heroContent p {
+  font-size: 30px;
+  margin-top: 18px;
+}
+.inNercontentBg h3 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.inNercontentBg h2 {
+  font-size: 50px;
+}
+
+.inNercontentBg p {
+  font-size: 20px;
+}
 }
 @media (max-width: 1600px) {
+  .overup p {
+    font-size: 19px;
+    text-align: justify;
+}
+.sevicImg img {
+  width: 50%;
+}
+.serviveContent .conItem {
+  font-size: 17px;
+}
+.servUl ul li h3 {
+  font-size: 32px;
+}
   .heroImage {
     height: 840px;
 }
@@ -762,9 +891,26 @@ ul.nav-links {
     width: 76%;
     z-index: -1;
 }
+.heroContent h3 {
+  font-size: 43px;
+  font-weight: 300;
+}
+
+.heroContent h2 {
+  font-size: 65px;
+}
+
+.heroContent p {
+  font-size: 25px;
+  margin-top: 18px;
+}
 }
 
 @media (max-width: 1440px) {
+  .overup p {
+    font-size: 15px;
+    text-align: justify;
+}
   span.allipe3 {
     position: absolute;
     left: -1144px;
@@ -782,6 +928,24 @@ ul.nav-links {
 }
 .menu {
   gap: 2rem;
+}
+.heroContent h2 {
+  font-size: 60px;
+}
+.inNercontentBg h3 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.inNercontentBg h2 {
+  font-size: 45px;
+}
+
+.inNercontentBg p {
+  font-size: 17px;
+}
+.inNercontentBg {
+  right: -136px;
 }
 }
 @media (max-width: 1366px) {
@@ -810,14 +974,45 @@ span.allipe3.allipe4 {
     width: 50%;
     right: -143px;
   }
+  .heroContent h3 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  
+  .heroContent h2 {
+    font-size: 58px;
+  }
+  
+  .heroContent p {
+    font-size: 22px;
+    margin-top: 18px;
+  }
 }
 
 @media (max-width: 1024px) {
+  .contactus {
+    font-size: 15px;
+}
+
+.logoSection p {
+    font-size: 15px;
+}
+
+p.copy {
+    font-size: 15px;
+}
+
+p.arrowDown img {
+    width: 33px;
+}
   .heroContent {
     top: 37%;
     right: -10%;
     width: 50%;
   }
+  .footerMenu .menu {
+    gap: 8rem;
+}
   .barr {
     height: 1208px;
   }
@@ -1182,7 +1377,7 @@ span.allipe3.allipe4 {
 }
 .heroImage {
   clip-path: polygon(36% 0, 59% 0, 100% 0, 100% 94%, 72% 93%, 51% 92%, 29% 92%, 0 91%, 0 0);
-  clip-path: url(#myCurveMob);
+  /* clip-path: url(#myCurveMob); */
 }
 
 .contentBg {
@@ -1192,7 +1387,7 @@ span.allipe3.allipe4 {
 .overup .conItem {
   position: absolute;
   width: 79%;
-  bottom: -176px;
+  bottom: -189px;
   padding: 16px 20px;
   left: 33px;
   right: 0;
