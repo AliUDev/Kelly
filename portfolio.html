@@ -260,13 +260,13 @@ const showLightbox = (img) => {
     // Showing lightbox and updating img source
     lightbox.querySelector("img").src = img;
     lightbox.classList.add("show");
-    document.body.style.overflowX = "hidden";
+    // document.body.style.overflowX = "hidden";
 }
 
 closeImgBtn.addEventListener("click", () => {
     // Hiding lightbox on close icon click
     lightbox.classList.remove("show");
-    document.body.style.overflowX = "hidden";
+    // document.body.style.overflowX = "hidden";
 });
     </script>
    

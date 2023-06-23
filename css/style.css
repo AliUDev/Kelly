@@ -826,7 +826,8 @@ span.allipe3 {
   top: -1478px;
   height: 300px;
   width: 100%;
-  z-index: 0;
+  z-index: 999999999999999999;
+
 }
 
 .menu {
@@ -1159,6 +1160,8 @@ section.sectionssss.servv {
       top: -898px;
       height: 300px;
       width: 100%;
+      z-index: 999999999999999999;
+
     }
   .heroContent {
     right: 0%;
@@ -1222,6 +1225,8 @@ section.sectionssss.servv {
     top: -768px;
     height: 300px;
     width: 100%;
+    z-index: 999999999999999999;
+
   }
   span.allipe3.allipe4 {
     position: absolute;
@@ -1267,6 +1272,8 @@ section.sectionssss.servv {
     top: -704px;
     height: 300px;
     width: 100%;
+    z-index: 999999999999999999;
+
 }
 .blogMian {
   margin: 5px 0px;
@@ -1409,6 +1416,8 @@ p.arrowDown img {
     top: -294px;
     height: 295px;
     width: 52%;
+    z-index: 999999999999999999;
+
   }
   .sevicImg {
     left: -476px;
@@ -1629,6 +1638,8 @@ label.menus svg {
     top: -105px;
     height: 294px;
     width: 46%;
+    z-index: 999999999999999999;
+
   }
   span.allipe3.allipe4 {
     position: absolute;
@@ -1873,6 +1884,8 @@ a.buttonSubmit.conItem:after {
     top: -105px;
     height: 294px;
     width: 61%;
+    z-index: 999999999999999999;
+
   }
   span.allipe3.allipe4 {
     position: absolute;
