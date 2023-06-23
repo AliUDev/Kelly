@@ -215,7 +215,10 @@ ul.nav-links {
 }
 
 /* ----hero----- */
-
+.description p a {
+  color: #000;
+  text-decoration: revert;
+}
 .heroImage {
   height: 727px;
   background-repeat: no-repeat;
@@ -508,6 +511,7 @@ span.allipe3 img {
 
 .overup p.conItem {
   margin-left: 0;
+  margin-top: 45px;
 }
 
 a.buttonSubmit.conItem {
@@ -1023,7 +1027,7 @@ section.sectionssss.servv {
 
 .overup {
     width: 60%;
-    padding: 55px;
+    padding: 50px;
     left: -133px;
 }
 
