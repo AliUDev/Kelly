@@ -1515,7 +1515,7 @@ label.menus svg {
 }
 
   
-  .heroImage.subpages .heroContent {
+.heroImage.subpages .heroContent {
     bottom: 150px;
     top: initial;
 }
@@ -1526,7 +1526,7 @@ label.menus svg {
     right: 0;
     left: 0;
     text-align: center;
-    margin: 45px 0;
+    margin: 16px 0;
   }
 
   .menu li:hover {
