@@ -752,6 +752,11 @@ svg {
 /* APPLYING MEDIA QUERIES */
 
 @media (max-width:2560px) {
+  .heroContent.nomove {
+    display: block;
+    z-index: 999;
+    top: 100%;
+}
   .banner_path {
     position: absolute;
     right: -9%;
@@ -802,11 +807,11 @@ p.arrowDown img {
 }
 
 .vl.up {
-    top: -352px;
+    top: -474px;
 }
 
 .vl.dwn {
-    bottom: -454px;
+    bottom: -685px;;
     height: 450px;
 }
 
