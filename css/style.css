@@ -755,8 +755,8 @@ svg {
   .heroContent.nomove {
     display: block;
     z-index: 999;
-    top: 100%;
-}
+    top: 62%;
+  }
   .banner_path {
     position: absolute;
     right: -9%;
